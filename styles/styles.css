@@ -9,7 +9,7 @@ body{
 }
 
 .header{
-    font-size: 65px;
+    font-size: 64px;
     text-align: center;
     padding: 20px;
     margin: 0;
@@ -31,7 +31,7 @@ body{
 
 .screen{
     width: 275px;
-    height: 85px;
+    height: 80px;
     background-color:rgb(59, 59, 59);
     margin-left: 18px;
     margin-top: 18px;
@@ -106,4 +106,28 @@ button:hover{
 .divide-button:hover,
 .percent-button:hover{
     background-color: mediumturquoise;
+}
+
+button:active{
+    transform: translateY(0rem);
+}
+
+.user-input{
+    color: white;
+    padding-top: 12px;
+    font-size: 20px;
+    display: block;
+    width: 265px;
+    height: 40px;
+    text-align: end;
+}
+
+.output{
+    display: block;
+    color: #60A07F;
+    font-size: 25px;
+    width: 265px;
+    height: 40px;
+    text-align: end;
+    margin-top: -12px;
 }
